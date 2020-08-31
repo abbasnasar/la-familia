@@ -1,0 +1,40 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 2;
+}
+
+.sidebar {
+    min-width: 200px;
+    flex: 0.7;
+    height: 100%;
+}
+
+.profile {
+    display: flex;
+    min-height: calc(100vh - 60px);
+    padding:0 10px;
+    div {
+        height: calc(100vh - 60px);
+    }
+}
+
+.unorderedList {
+    font-size: smaller;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+}
+.horizontal {
+    display : inline-flex;
+    justify-content: flex-start;
+    text-align: center;
+    li {
+        margin-block-end: 1em;
+        i {
+       padding-right: 0.5em; 
+        }
+    }
+}

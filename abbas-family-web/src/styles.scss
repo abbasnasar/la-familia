@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    display: flex;
+    font-family: sans-serif;
+    margin: 1px 2px;
+    background: #e7eaee;
+    }
+    
+    .layout {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        width: 100vw;
+        
+        .app-content {
+            flex-grow: 1;
+        }
+    }
+
+.h-1 {
+    font-weight: 100;
+    margin-block-end: 0.3em;
+    margin-block-start: 0.3em;
+}
